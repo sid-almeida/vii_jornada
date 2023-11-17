@@ -248,8 +248,8 @@ if choice == "Ranking":
 if choice == "Sobre":
     st.subheader("Sobre o Projeto")
     st.write('---')
-    st.write("**Sobre o App**:\nEste aplicativo é um Software criado com o objetivo de automatizar a limpeza de dados para a geração de certificados no **IFRS - Campus Caxias do Sul**.")
-    st.write("**Tenologia**:\nEle utiliza **Python** em conjunto com a biblioteca **Pandas** para executar a limpeza dos dados de forma automática.")
+    st.write("**Sobre o App**:\nEste aplicativo é um Software criado com o objetivo de facilitar o registro e análise de dados de avaliação dos trabalhos da VIII Jornada para a geração de certificados no **IFRS - Campus Caxias do Sul**.")
+    st.write("**Tenologia**:\nEle utiliza **Python** em conjunto com a biblioteca **Pandas** e **Numpy** para calcular a média das notas e inseri-las no DataFrame com o objetivo de filtrar os trabalhos com maior pontuação em cada categoria.")
     st.write("**Implementação**:\nA implementação foi feita em forma de **WebApp** na plataforma **Streamlit** para facilitar o acesso.")
     st.write('---')
 st.write('Made with ❤️ by [Sidnei Almeida](https://www.linkedin.com/in/saaelmeida93/)')
