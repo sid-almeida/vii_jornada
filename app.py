@@ -63,7 +63,7 @@ else:
     data = pd.DataFrame(columns=["trabalho", "avaliador", "soma"])
 
 with st.sidebar:
-    st.image("image (3).png", width=250)
+    st.image("https://github.com/sid-almeida/vii_jornada/blob/main/image%20(3).png?raw=true", width=250)
     st.write('---')
     choice = st.radio("**Navegação:**", ("Avaliação de Trabalhos", "DataFrame","Ranking", "Sobre"))
     st.success("Esta aplicação tem como objetivo executar a **limpeza automatizada de dados** para a geração de **certificados**.")
